@@ -28,6 +28,7 @@ body {
 /* INPUT CONTAINER */
 
 .input-container {
+    padding-inline: 40px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -85,5 +86,49 @@ body {
 /* INGREDIENTS CONTAINER */
 
 .ingredients-container {
-    width: 100%;
+    width: max-content;
+    padding: 5px;
+    background-color: rgb(18,18,19);
+    border: 1px solid rgba(255,255,255,0.02);
+}
+
+.ingredient-itself {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-block: 5px;
+    padding-inline: 10px 6px;
+    background-color: rgb(27,27,28);
+    border-top: 1px solid rgba(255,255,255,0.02);
+    border-bottom: 1px solid rgba(255,255,255,0.02);
+}
+
+.ingredient-itself-name {
+    color: white;
+}
+
+.ingredient-itself-button {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: rgb(35,35,36);
+    cursor: pointer;
+    transition: background-color 300ms;
+}
+
+.ingredient-itself-button-svg {
+    width: 15px;
+    height: 15px;
+    color: gray;
+}
+
+.ingredient-itself-button:hover {
+    background-color: rgb(40,40,41);
+}
+
+.ingredient-itself-button:hover .ingredient-itself-button-svg {
+    color: red;
 }
