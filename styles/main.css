@@ -15,6 +15,18 @@ body {
     background-color: rgb(16,16,17);
 }
 
+/* POP UP ERROR MESSAGE */
+
+.pop-up-error-message {
+    position: fixed;
+    background-color: rgb(20,20,21);
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid rgba(255,255,255,0.02);
+    color: orangered;
+}
+
 /* CONTAINER */
 
 .container {
