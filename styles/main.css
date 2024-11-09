@@ -25,6 +25,11 @@ body {
     padding: 10px 15px;
     border: 1px solid rgba(255,255,255,0.02);
     color: orangered;
+    display: none;
+}
+
+.pop-up-error-message-active {
+    display: unset;
 }
 
 /* CONTAINER */
