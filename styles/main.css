@@ -153,3 +153,35 @@ body {
 .ingredient-itself-button:hover .ingredient-itself-button-svg {
     color: red;
 }
+
+/* OUTPUT */
+
+.output {
+    width: 100%;
+    padding-inline: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 15px;
+}
+
+.output-itself {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.output-itself-image {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    border: 1px solid rgba(255,255,255,1);
+}
+
+.output-itself-image-itself {
+    width: 100%;
+}
+
+.output-itself-name {
+    color: white;
+    font-weight: 400;
+}
